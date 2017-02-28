@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{f238ab31-65ca-4f84-a910-bd082d79ae5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Wrapper">
+      <UniqueIdentifier>{0512dbf4-8b9f-4623-91c2-f48d1638e22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{77aa71fb-54a3-4abf-b1fd-5d171cef5b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Wrapper">
+      <UniqueIdentifier>{5c51a0ea-301f-4187-bf2b-ced79cf10d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Canvas">
+      <UniqueIdentifier>{cbed4756-5f35-47fd-bdd1-6e5036c9d6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Canvas">
+      <UniqueIdentifier>{ce888597-12cd-4826-b95f-f041ed985d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NES">
+      <UniqueIdentifier>{0505f464-6e6c-457f-af3c-5f02e5f3e5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NES">
+      <UniqueIdentifier>{0d4ea422-2500-40a6-906c-f9d4edad2eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{81291e05-55f6-4b4b-9f6f-01074bf099d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{ee9baaf4-dd75-463f-a4c8-7b44cbb9d2dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bohed.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bohed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CWindow.h">
+      <Filter>Header Files\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\CMainWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CFont.h">
+      <Filter>Header Files\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\CBitmap.h">
+      <Filter>Header Files\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Canvas\CNesCanvas.h">
+      <Filter>Header Files\GUI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesFile.h">
+      <Filter>Header Files\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesEditor.h">
+      <Filter>Header Files\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctreeview.h">
+      <Filter>Header Files\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CScroll.h">
+      <Filter>Header Files\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\CBlocksListDlg.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\cpwdtooldlg.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\CNesObject.h">
+      <Filter>Header Files\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CListView.h">
+      <Filter>Header Files\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\csprinfodlg.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\CObjectEditorDlg.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bohed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CWindow.cpp">
+      <Filter>Source Files\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\CMainWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CFont.cpp">
+      <Filter>Source Files\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\CBitmap.cpp">
+      <Filter>Source Files\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Canvas\CNesCanvas.cpp">
+      <Filter>Source Files\GUI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesFile.cpp">
+      <Filter>Source Files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesEditor.cpp">
+      <Filter>Source Files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctreeview.cpp">
+      <Filter>Source Files\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CScroll.cpp">
+      <Filter>Source Files\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\CBlocksListDlg.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\cpwdtooldlg.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\CNesObject.cpp">
+      <Filter>Source Files\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\CListView.cpp">
+      <Filter>Source Files\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\csprinfodlg.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\CNesObjectEditorDlg.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="bohed.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
